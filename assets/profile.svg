@@ -1,0 +1,22 @@
+<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="900" rx="40" fill="#07111f"/>
+  <circle cx="400" cy="300" r="220" fill="url(#bg)"/>
+  <rect x="160" y="520" width="480" height="280" rx="40" fill="#0e2137"/>
+  <circle cx="400" cy="330" r="135" fill="#F4C38D"/>
+  <path d="M260 340c24-130 255-130 280 0v140c0 38-18 74-48 97l-92 73-92-73c-30-23-48-59-48-97z" fill="#0F172A"/>
+  <path d="M280 320c22-92 218-100 240 0" stroke="#0F172A" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <circle cx="340" cy="320" r="14" fill="#0F172A"/>
+  <circle cx="460" cy="320" r="14" fill="#0F172A"/>
+  <path d="M332 390c26 22 110 22 136 0" stroke="#A24B2F" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="400" cy="220" r="82" fill="#0F172A"/>
+  <circle cx="400" cy="220" r="62" fill="#F4C38D"/>
+  <path d="M250 180c42-95 258-97 300 0" stroke="#6EE7FF" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <text x="400" y="760" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" fill="#F8FAFC">Md Bellal Hosen</text>
+  <text x="400" y="810" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#6EE7FF">AI Developer • Designer</text>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>

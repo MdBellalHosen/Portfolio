@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Bellal Hosen | Portfolio</title>
+    <meta name="description" content="Portfolio website for Md Bellal Hosen, featuring projects, skills, experience, and contact information." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <header class="topbar">
+      <div class="brand-shell">
+        <a class="brand" href="#home">Bellal</a>
+        <span class="brand-tag">AI • Web • Design</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <button class="btn hire-header" id="hireHeader" aria-label="Show contact info">Hire Me</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <div class="hero-content">
+          <p class="eyebrow">Hi, I’m</p>
+          <h1>
+            <span id="typedText">Software Engineer</span>
+          </h1>
+          <p class="hero-copy">
+            I craft immersive digital experiences with AI, modern web development, creative design, and problem-solving.
+          </p>
+          <div class="hero-actions">
+            <a href="assets/resume.txt" class="btn primary" download>Download Resume</a>
+            <a href="#projects" class="btn secondary">View Projects</a>
+            <a href="mailto:bellam546@gmail.com" class="btn ghost">Hire Me</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>15+</strong><span>Projects</span></div>
+            <div><strong>3+</strong><span>Years</span></div>
+            <div><strong>100%</strong><span>Passion</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orb"></div>
+          <div class="hero-card">
+            <img src="assets/profile.png" alt="Md Bellal Hosen" onerror="this.onerror=null;this.src='assets/profile.svg'" />
+            <div>
+              <h3>Md Bellal Hosen</h3>
+              <p>AI Developer • UI/UX Designer • Freelancer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Creative technologist blending code, design, and AI.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="profile-card">
+            <img src="assets/profile.png" alt="Profile" onerror="this.onerror=null;this.src='assets/profile.svg'" />
+            <ul>
+              <li><strong>Current Status:</strong> Available for freelance</li>
+              <li><strong>University:</strong> East West University</li>
+              <li><strong>Degree:</strong> BSc in CSE</li>
+              <li><strong>Location:</strong> Dhaka, Bangladesh</li>
+              <li><strong>Email:</strong> bellam546@gmail.com</li>
+              <li><strong>Languages:</strong> Bengali, English</li>
+            </ul>
+          </div>
+          <div class="about-copy">
+            <p>
+              I’m a multidisciplinary developer who enjoys building polished products that look great and perform better. My work stretches from AI-assisted apps to UI systems, branding, and interactive experiences.
+            </p>
+            <div class="chip-row">
+              <span class="chip">⚡ Loves AI</span>
+              <span class="chip">☕ Coffee Addict</span>
+              <span class="chip">🎮 Gamer</span>
+              <span class="chip">🧠 Problem Solver</span>
+            </div>
+            <div class="quote-box">
+              “Design is not just what it looks like; it’s how it feels and how it works.”
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Interactive capabilities across the stack.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-pills">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Vue</span>
+            </div>
+          </article>
+          <article class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-pills">
+              <span>Node</span><span>Express</span><span>Laravel</span><span>PHP</span><span>Python</span><span>Java</span>
+            </div>
+          </article>
+          <article class="skill-category">
+            <h3>Database</h3>
+            <div class="skill-pills">
+              <span>MongoDB</span><span>MySQL</span><span>PostgreSQL</span><span>Firebase</span><span>Supabase</span>
+            </div>
+          </article>
+          <article class="skill-category">
+            <h3>Design</h3>
+            <div class="skill-pills">
+              <span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span>
+            </div>
+          </article>
+          <article class="skill-category">
+            <h3>Animation</h3>
+            <div class="skill-pills">
+              <span>Three.js</span><span>GSAP</span><span>Framer Motion</span><span>Spline</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Code Showcase</p>
+          <h2>Quick snippets from different languages I use.</h2>
+        </div>
+        <div class="code-showcase">
+          <div class="code-tabs">
+            <button class="code-tab active" data-lang="html">HTML</button>
+            <button class="code-tab" data-lang="css">CSS</button>
+            <button class="code-tab" data-lang="js">JavaScript</button>
+            <button class="code-tab" data-lang="python">Python</button>
+            <button class="code-tab" data-lang="sql">SQL</button>
+          </div>
+          <div class="code-window">
+            <div class="code-window-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-label" id="codeLabel">index.html</span>
+            </div>
+            <pre><code id="codeSnippet"></code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Tech Stack</p>
+          <h2>Tools I use to build fast, thoughtful products.</h2>
+        </div>
+        <div class="tech-grid">
+          <article class="tech-card">
+            <h3>React</h3>
+            <p>4 yrs</p>
+            <span>24+ apps</span>
+          </article>
+          <article class="tech-card">
+            <h3>Node.js</h3>
+            <p>3 yrs</p>
+            <span>12 APIs</span>
+          </article>
+          <article class="tech-card">
+            <h3>Python</h3>
+            <p>2 yrs</p>
+            <span>8 AI scripts</span>
+          </article>
+          <article class="tech-card">
+            <h3>Figma</h3>
+            <p>4 yrs</p>
+            <span>50+ UI systems</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>A timeline of learning and growth.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>School</h3>
+            <p>Built a strong foundation in science, logic, and communication.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>College</h3>
+            <p>Focused on mathematics, programming, and problem-solving fundamentals.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>University</h3>
+            <p>Studying Computer Science at East West University with deep interest in AI and software engineering.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Courses & Certifications</h3>
+            <p>Completed coursework in web development, AI, design systems, and product thinking.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Achievements</p>
+          <h2>Milestones that shaped my journey.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="mini-card">🏆 Hackathon Winner</article>
+          <article class="mini-card">🎤 Public Speaker</article>
+          <article class="mini-card">📘 Scholarship Recipient</article>
+          <article class="mini-card">💡 Open Source Contributor</article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Building value through internships, freelance work, and research.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Internship</h3>
+            <p>Delivered frontend improvements and collaborated on product design.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Freelance</h3>
+            <p>Created client websites, UI systems, and branding experiences.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Research</h3>
+            <p>Explored AI workflows and intelligent automation systems.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Open Source</h3>
+            <p>Contributed to developer tooling and useful side projects.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications</p>
+          <h2>Official recognition for the skills I use every day.</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card">
+            <span class="cert-badge">AI</span>
+            <h3>AI Fundamentals</h3>
+            <p>Issued by a leading online institution for practical AI development.</p>
+          </article>
+          <article class="cert-card">
+            <span class="cert-badge">Web</span>
+            <h3>Full Stack Web</h3>
+            <p>Demonstrates end-to-end application building with modern stacks.</p>
+          </article>
+          <article class="cert-card">
+            <span class="cert-badge">Design</span>
+            <h3>UI/UX Design</h3>
+            <p>Focused on user-centred interfaces, interaction, and product polish.</p>
+          </article>
+          <article class="cert-card">
+            <span class="cert-badge">Cloud</span>
+            <h3>Cloud Deployment</h3>
+            <p>Showcases deployment workflows, hosting, and production readiness.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="courses" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Courses</p>
+          <h2>Learning pathways that unlock new skills.</h2>
+        </div>
+        <div class="course-grid">
+          <article class="course-card">
+            <h3>Modern JavaScript</h3>
+            <p>Building fast interfaces and stateful applications.</p>
+          </article>
+          <article class="course-card">
+            <h3>Python for AI</h3>
+            <p>Data processing, model experimentation, and automation scripts.</p>
+          </article>
+          <article class="course-card">
+            <h3>UX Systems</h3>
+            <p>Design systems, prototyping, and user testing best practices.</p>
+          </article>
+          <article class="course-card">
+            <h3>Database Design</h3>
+            <p>Relational and NoSQL modeling for performance and scale.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Learning Roadmap</p>
+          <h2>Where I’m going next.</h2>
+        </div>
+        <div class="roadmap-grid">
+          <div class="roadmap-item">
+            <h3>Next:</h3>
+            <p>Web3 interfaces and decentralized app design.</p>
+          </div>
+          <div class="roadmap-item">
+            <h3>Later:</h3>
+            <p>AI product design and automated workflow ecosystems.</p>
+          </div>
+          <div class="roadmap-item">
+            <h3>Future:</h3>
+            <p>Interactive 3D experiences and spatial interfaces.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill-master" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Skill Mastery</p>
+          <h2>See how I focus my strengths across the stack.</h2>
+        </div>
+        <div class="skill-master-panel">
+          <div class="skill-filter">
+            <button class="skill-chip active" data-skill="all">All</button>
+            <button class="skill-chip" data-skill="frontend">Frontend</button>
+            <button class="skill-chip" data-skill="backend">Backend</button>
+            <button class="skill-chip" data-skill="design">Design</button>
+          </div>
+          <div class="skill-ring-grid">
+            <div class="skill-ring" data-category="frontend">
+              <strong>React</strong>
+              <span>92%</span>
+            </div>
+            <div class="skill-ring" data-category="backend">
+              <strong>Node</strong>
+              <span>88%</span>
+            </div>
+            <div class="skill-ring" data-category="design">
+              <strong>Figma</strong>
+              <span>90%</span>
+            </div>
+            <div class="skill-ring" data-category="frontend">
+              <strong>Next.js</strong>
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Projects</p>
+          <h2>Live website showcases you can explore right away.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-project="ai">
+            <span class="project-badge">AI</span>
+            <h3>AI Productivity Hub</h3>
+            <p>Conversational workspace with smart tasks, notes, and automation.</p>
+            <div class="project-tags"><span>React</span><span>Node</span><span>OpenAI</span></div>
+            <a class="project-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="ecommerce">
+            <span class="project-badge">Store</span>
+            <h3>Modern E-commerce</h3>
+            <p>High-conversion storefront with elegant UX and strong product storytelling.</p>
+            <div class="project-tags"><span>Next.js</span><span>Stripe</span><span>Firebase</span></div>
+            <a class="project-link" href="https://www.nike.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="design">
+            <span class="project-badge">Design</span>
+            <h3>Creative Agency Site</h3>
+            <p>Polished landing experience for a digital studio with immersive visuals.</p>
+            <div class="project-tags"><span>Figma</span><span>HTML</span><span>CSS</span></div>
+            <a class="project-link" href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="travel">
+            <span class="project-badge">Travel</span>
+            <h3>Travel Booking Platform</h3>
+            <p>Booking flow with search, filters, and smooth reservation experiences.</p>
+            <div class="project-tags"><span>Vue</span><span>API</span><span>Maps</span></div>
+            <a class="project-link" href="https://www.airbnb.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="music">
+            <span class="project-badge">Music</span>
+            <h3>Music Streaming App</h3>
+            <p>Personalized audio experience with playback, discovery, and playlists.</p>
+            <div class="project-tags"><span>React</span><span>Tailwind</span><span>Audio</span></div>
+            <a class="project-link" href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="collab">
+            <span class="project-badge">Collab</span>
+            <h3>Design Collaboration Tool</h3>
+            <p>Shared workspace for teams to review prototypes and exchange feedback.</p>
+            <div class="project-tags"><span>Figma</span><span>Web</span><span>Realtime</span></div>
+            <a class="project-link" href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="restaurant">
+            <span class="project-badge">Food</span>
+            <h3>Restaurant Reservation Site</h3>
+            <p>Fast reservation experience with menu, offers, and table booking.</p>
+            <div class="project-tags"><span>JS</span><span>CSS</span><span>Booking</span></div>
+            <a class="project-link" href="https://www.opentable.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="finance">
+            <span class="project-badge">Finance</span>
+            <h3>Finance Dashboard</h3>
+            <p>Clean analytics workspace for budgets, goals, and portfolio insights.</p>
+            <div class="project-tags"><span>Chart.js</span><span>React</span><span>API</span></div>
+            <a class="project-link" href="https://www.coinbase.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="blog">
+            <span class="project-badge">Blog</span>
+            <h3>Developer Blog Platform</h3>
+            <p>Content-first experience built for articles, tutorials, and newsletter readers.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>CMS</span></div>
+            <a class="project-link" href="https://www.medium.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="education">
+            <span class="project-badge">Education</span>
+            <h3>Learning Platform</h3>
+            <p>Interactive portal for courses, lessons, and student progress tracking.</p>
+            <div class="project-tags"><span>React</span><span>Node</span><span>Auth</span></div>
+            <a class="project-link" href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="saas">
+            <span class="project-badge">SaaS</span>
+            <h3>Startup SaaS Product</h3>
+            <p>Modern subscription app focused on collaboration, analytics, and growth.</p>
+            <div class="project-tags"><span>Next.js</span><span>Supabase</span><span>Stripe</span></div>
+            <a class="project-link" href="https://www.notion.so/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+          <article class="project-card" data-project="community">
+            <span class="project-badge">Community</span>
+            <h3>Community Network Site</h3>
+            <p>Professional network experience for connections, updates, and discovery.</p>
+            <div class="project-tags"><span>UI</span><span>UX</span><span>Social</span></div>
+            <a class="project-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Case Studies</p>
+          <h2>Deep dives into how the work was planned and shipped.</h2>
+        </div>
+        <div class="case-grid">
+          <article class="case-card">
+            <h3>Overview</h3>
+            <p>Defined the user problem, product strategy, and success metrics from day one.</p>
+          </article>
+          <article class="case-card">
+            <h3>Research & Planning</h3>
+            <p>Interviewed users, shaped wireframes, and aligned implementation steps.</p>
+          </article>
+          <article class="case-card">
+            <h3>Design & Deployment</h3>
+            <p>Created polished interfaces, tested rigorously, and shipped confidently.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Snapshots of design, creativity, and product moments.</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">📸 Screenshots</div>
+          <div class="gallery-item">🎞️ Videos</div>
+          <div class="gallery-item">✨ Animations</div>
+          <div class="gallery-item">🧾 Certificates</div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Blog</p>
+          <h2>Notes on AI, web development, and creative growth.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="mini-card">🤖 AI & Automation</article>
+          <article class="mini-card">🌐 Web Development</article>
+          <article class="mini-card">⚛️ React Patterns</article>
+          <article class="mini-card">💻 JavaScript Tips</article>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Professional snapshot ready to share.</h2>
+        </div>
+        <div class="resume-box">
+          <p>Open my resume in a new tab or download a plain-text copy from the button above.</p>
+          <div class="hero-actions">
+            <a href="assets/resume.txt" class="btn primary" download>Download PDF</a>
+            <a href="#contact" class="btn secondary">Print Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What people say about working with me.</h2>
+        </div>
+        <div class="testimonial-carousel">
+          <div class="testimonial active">
+            <p>“Bellal brought clarity, speed, and polish to every iteration.”</p>
+            <strong>— Client</strong>
+          </div>
+          <div class="testimonial">
+            <p>“Thoughtful design and reliable execution make him a standout collaborator.”</p>
+            <strong>— Teacher</strong>
+          </div>
+          <div class="testimonial">
+            <p>“A dependable builder who cares about both user experience and code quality.”</p>
+            <strong>— Employer</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Statistics</p>
+          <h2>Numbers that reflect consistency and momentum.</h2>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card"><strong class="counter" data-count="15">0</strong><span>Projects</span></div>
+          <div class="stat-card"><strong class="counter" data-count="30">0</strong><span>Clients</span></div>
+          <div class="stat-card"><strong class="counter" data-count="120">0</strong><span>Followers</span></div>
+          <div class="stat-card"><strong class="counter" data-count="250">0</strong><span>Commits</span></div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Interactive World Map</p>
+          <h2>Global collaborations and connections.</h2>
+        </div>
+        <div class="map-card">
+          <div class="map-dot dot-a"></div>
+          <div class="map-dot dot-b"></div>
+          <div class="map-dot dot-c"></div>
+          <p>Clients, collaborators, and visitors from around the world.</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Availability</p>
+          <h2>Open for projects, collaboration, and freelance work.</h2>
+        </div>
+        <div class="availability-box">
+          <div>Available</div>
+          <div>Busy on weekends</div>
+          <div>Vacation in August</div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s create something memorable.</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form">
+            <input type="text" placeholder="Your name" />
+            <input type="email" placeholder="Your email" />
+            <input type="text" placeholder="Subject" />
+            <textarea rows="4" placeholder="Message"></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <p><strong>Name:</strong> Md Bellal Hosen</p>
+            <p><strong>Email:</strong> bellam546@gmail.com</p>
+            <p><strong>Phone:</strong> +8801855087421</p>
+            <p><strong>Social:</strong> WhatsApp • Messenger • Discord • LinkedIn • GitHub • Instagram • Facebook</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">AI Assistant</p>
+          <h2>Ask me about my work, skills, or projects.</h2>
+        </div>
+        <div class="assistant-card">
+          <div id="chatMessages" class="chat-messages">
+            <div class="message bot">Hello! Ask me about Bellal, show projects, skills, resume, or contact info.</div>
+          </div>
+          <div class="chat-actions">
+            <button class="chip-btn" data-prompt="Tell me about Bellal">Tell me about Bellal</button>
+            <button class="chip-btn" data-prompt="Show projects">Show projects</button>
+            <button class="chip-btn" data-prompt="Show resume">Show resume</button>
+            <button class="chip-btn" data-prompt="Contact">Contact</button>
+          </div>
+          <div class="chat-input-row">
+            <input id="chatInput" type="text" placeholder="Type your question..." />
+            <button id="chatSend" class="btn primary">Send</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Mini Games</p>
+          <h2>A playful layer for longer visits.</h2>
+        </div>
+        <div class="game-card">
+          <h3>Typing Sprint</h3>
+          <p id="gamePrompt">Type the phrase: I build digital experiences.</p>
+          <textarea id="gameInput" rows="3" placeholder="Start typing..."></textarea>
+          <button id="gameCheck" class="btn secondary">Check</button>
+          <p id="gameResult"></p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Theme Customizer</p>
+          <h2>Switch the interface mood instantly.</h2>
+        </div>
+        <div class="theme-list">
+          <button class="theme-option" data-theme="default">Default</button>
+          <button class="theme-option" data-theme="dark">Dark</button>
+          <button class="theme-option" data-theme="cyber">Cyberpunk</button>
+          <button class="theme-option" data-theme="glass">Glass</button>
+          <button class="theme-option" data-theme="neon">Neon</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal">
+      <div class="footer-glow"></div>
+      <div class="footer-grid">
+        <div>
+          <h3>Md Bellal Hosen</h3>
+          <p>Building AI-powered experiences, thoughtful interfaces, and digital products that leave a lasting impression.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:bellam546@gmail.com">Email</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Availability</h4>
+          <p>Open for freelance work, collaborations, and exciting product ideas.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Md Bellal Hosen</span>
+        <span>Designed with passion • Built with creativity</span>
+      </div>
+    </footer>
+
+    <div class="contact-overlay" id="contactOverlay">
+      <div class="contact-panel">
+        <button class="close-overlay" id="closeOverlay" aria-label="Close contact details">×</button>
+        <h3>Contact Me</h3>
+        <p class="overlay-text">I’m available for freelance work, projects, and collaborations.</p>
+        <div class="contact-grid-panel">
+          <div>
+            <strong>Address</strong>
+            <p>Dhaka, Bangladesh</p>
+          </div>
+          <div>
+            <strong>Email</strong>
+            <p>bellam546@gmail.com</p>
+          </div>
+          <div>
+            <strong>Phone</strong>
+            <p>+8801855087421</p>
+          </div>
+          <div>
+            <strong>Availability</strong>
+            <p>Available now for freelance work</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-modal" id="projectModal">
+      <div class="modal-card">
+        <button class="close-modal" id="closeModal">×</button>
+        <h3 id="modalTitle">Project</h3>
+        <p id="modalBody"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

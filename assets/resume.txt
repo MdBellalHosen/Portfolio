@@ -1,0 +1,25 @@
+Md Bellal Hosen
+Email: bellam546@gmail.com
+Phone: +8801855087421
+Location: Dhaka, Bangladesh
+
+Summary
+Software engineer and AI developer with a passion for building modern web experiences, UI systems, and thoughtful digital products.
+
+Skills
+Frontend: HTML, CSS, JavaScript, React, Next.js, Vue
+Backend: Node.js, Express, Laravel, PHP, Python, Java
+Design: Figma, Photoshop, Illustrator, Canva
+AI & Tools: OpenAI workflows, automation, creative prototyping
+
+Experience
+- Freelance web and UI/UX development
+- Project delivery with modern frontend stacks
+- AI-assisted automation and experimentation
+
+Education
+- East West University, Computer Science
+
+Contact
+Email: bellam546@gmail.com
+Phone: +8801855087421
