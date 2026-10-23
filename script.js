@@ -345,6 +345,11 @@ ORDER BY experience DESC;` }
 
   /* ---------- Project details modal ---------- */
   const projectDetails = {
+    todo: { title: 'Modern To-Do List App', sections: [
+      ['Overview', 'A clean, single-file to-do app that is easy to deploy anywhere.'],
+      ['Features', 'Add, edit and complete tasks with undo, priorities and due dates, filters and search, drag-and-drop reordering, progress ring, and light/dark themes.'],
+      ['Tech', 'Vanilla HTML, CSS and JavaScript with tasks saved in the browser.'],
+      ['Live', 'mdbellalhosen.github.io/To-Do-List']] },
     ai: { title: 'AI Assistant Platform', sections: [
       ['Overview', 'A smart assistant focused on productivity.'],
       ['Problem', 'Users needed faster access to documents and tasks.'],
@@ -388,7 +393,7 @@ ORDER BY experience DESC;` }
   }
   $$('.project-card').forEach((card) => {
     card.addEventListener('click', (e) => {
-      if (e.target.closest('.project-link')) return; // let the external link work normally
+      if (e.target.closest('a')) return; // let the external link work normally
       openProject(card);
     });
   });
